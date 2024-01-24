@@ -20,7 +20,7 @@ const Header = () => {
                 <FaMoon />
             </Button>
             <Link to='/dign-in'>
-                <Button gradientDuoTone='purpleToBlue'>SignIn</Button>
+                <Button gradientDuoTone='purpleToBlue' outline>SignIn</Button>
             </Link>
             <Navbar.Toggle />
         </div>
