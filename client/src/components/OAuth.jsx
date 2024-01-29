@@ -28,7 +28,6 @@ export default function OAuth() {
         }),
       });
       const data = await res.json();
-      console.log(data)
       if (res.ok) {
         dispatch(signInSuccess(data));
         navigate("/");
